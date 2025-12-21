@@ -5,26 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EREN | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+
   <style>
-    /* INLINE CSS FOR CONTACT LINKS AT BOTTOM RIGHT */
-    .contact-links {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
-      text-align: right;
-      font-size: 12px; /* thoda chota */
-      z-index: 1000;
+    /* SMALL ICON CONTACT BUTTONS */
+    .contact-links{
+      position:fixed;
+      bottom:12px;
+      right:12px;
+      display:flex;
+      gap:6px;
+      z-index:1000;
     }
-    .contact-links a {
-      color: #000;
-      text-decoration: none;
-      margin-left: 5px;
+    .contact-links a{
+      font-size:14px;
+      text-decoration:none;
+      opacity:0.75;
     }
-    .contact-links a:hover {
-      text-decoration: underline;
+    .contact-links a:hover{
+      opacity:1;
     }
   </style>
 </head>
+
 <body>
 
   <!-- HERO -->
@@ -78,20 +80,21 @@
   <section class="section reveal">
     <h2>About</h2>
     <p>
- Hi, I’m Mohammad Hammad, a 17-year-old student in Class 11 at Syed Abid Husain Sr. Sec School, Jamia Millia Islamia.  
-    I completed my 10th grade with 97%, and since then, I have been passionate about learning and exploring new skills.  
-    Alongside my academics, an active badminton and soccer player. 
-    Love coding, UI design, and creating clean, minimal, AI-assisted websites that focus on simplicity and usability.  
+      Hi, I’m Mohammad Hammad, a 17-year-old student in Class 11 at
+      Syed Abid Husain Sr. Sec School, Jamia Millia Islamia.
+      I completed my 10th grade with 97%.
+      Alongside academics, I’m an active badminton and soccer player.
+      I love coding, UI design, and creating clean, minimal, AI-assisted websites.
     </p>
   </section>
 
-  <!-- PROJECTS -->
+  <!-- SOME SITES -->
   <section class="section reveal">
-    <h2>Projects</h2>
+    <h2>Some sites</h2>
 
     <div class="project reveal">
       <h3>Study Tracker</h3>
-      <p>A minimal study space to manage learning(For PC/laptop users only).</p>
+      <p>A minimal study space to manage learning (PC/laptop only).</p>
       <a href="https://erenyeager-11.github.io/Eren-space/" target="_blank">Visit</a>
     </div>
 
@@ -103,7 +106,7 @@
 
     <div class="project reveal">
       <h3>Proposal Letters</h3>
-      <p>Minimal structured layouts.</p> 
+      <p>Minimal structured layouts.</p>
       <a href="https://erenyeager-11.github.io/Proposal/" target="_blank">Visit</a>
     </div>
 
@@ -118,15 +121,15 @@
     © 2025 • EREN
   </footer>
 
-  <!-- SIMPLE CONTACT LINKS AT BOTTOM RIGHT -->
+  <!-- CONTACT ICONS -->
   <div class="contact-links">
-    <p>Email: <a href="mailto:Hammadpvt.2@gmail.com">Hammadpvt.2@gmail.com</a></p>
-    <p>Insta: <a href="https://instagram.com/h4xxzzz" target="_blank">@h4xxzzz</a></p>
+    <a href="mailto:hammadpvt.2@gmail.com" title="Email">📧</a>
+    <a href="https://www.instagram.com/h4xxzzz/" target="_blank" title="Instagram">📸</a>
+    <a href="https://github.com/erenyeager-11" target="_blank" title="GitHub">💻</a>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
 
 
